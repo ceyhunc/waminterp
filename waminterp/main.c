@@ -72,10 +72,6 @@ int environment_size(address a);
 #define DUMP_MEM 1
 */
 
-#define MAX_MEM 1
-#define TRACE 1
-#define DUMP_MEM 1
-
 #ifdef MAX_MEM
 address max_heap, max_trail, max_local;
 #endif
